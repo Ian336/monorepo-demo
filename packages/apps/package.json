@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@monorepo/common": "1.0.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3"
+  }
+}

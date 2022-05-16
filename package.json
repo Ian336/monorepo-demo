@@ -1,0 +1,15 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/bootstrap"
+    ]
+  },
+  "dependencies": {
+    "moment": "^2.29.3"
+  }
+}
